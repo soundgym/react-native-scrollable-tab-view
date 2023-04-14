@@ -1,3 +1,5 @@
+import ViewPager from 'react-native-pager-view';
+
 const React = require('react');
 const ReactNative = require('react-native');
 const DeprecatedPropTypes = require('deprecated-react-native-prop-types');
@@ -14,7 +16,6 @@ const {
 } = ReactNative;
 
 const TimerMixin = require('react-timer-mixin');
-const ViewPager = require('react-native-pager-view');
 
 const SceneComponent = require('./SceneComponent');
 const DefaultTabBar = require('./DefaultTabBar');
